@@ -782,6 +782,7 @@
 					"$(inherited)",
 					../Vendor/CrashReporter,
 				);
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
@@ -809,6 +810,7 @@
 					"$(inherited)",
 					../Vendor/CrashReporter,
 				);
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
